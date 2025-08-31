@@ -576,7 +576,7 @@ epochQuestData[28903] = {"Encrypted Memorandum",{{46836}},{{46882}},nil,1,nil,ni
 -- Issue #189: The Perenolde Legacy - Alterac Mountains quest
 epochQuestData[26511] = {"The Perenolde Legacy",{{2317}},{{6768}},nil,38,nil,nil,{"Report the news of Aliden Perenolde's death and Elysa's request to search for General Hath to Lord Ravenholdt."},nil,nil,nil,nil,nil,nil,nil,nil,36,nil,nil,nil,nil,nil,8,0,nil,nil,nil,nil,nil,nil} -- Alterac Mountains: Elysa to Lord Jorach Ravenholdt
 epochQuestData[28648] = {"[Epoch] Quest 28648",nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,0,nil,nil,nil,nil,nil,nil}
-epochQuestData[26716] = {"The Handmaiden's Fall",{{2112}},{{2112}},nil,28,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,85,nil,nil,nil,nil,nil,nil,0,nil,nil,nil,nil,nil,nil}
 
 -- Stage the Epoch questData for later merge during compilation
+epochQuestData[26716] = {"The Handmaiden's Fall",{{2112}},{{2112}},nil,28,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,85,nil,nil,nil,nil,nil,nil,0,nil,nil,nil,nil,nil,nil}
 QuestieDB._epochQuestData = epochQuestData
