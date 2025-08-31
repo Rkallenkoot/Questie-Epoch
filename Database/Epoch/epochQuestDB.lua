@@ -187,7 +187,7 @@ epochQuestData[26995] = {"The Killing Fields",{{233}},{{233}},nil,12,nil,nil,nil
 epochQuestData[26996] = {"The Killing Fields",{{233}},nil,nil,14,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,40,nil,nil,nil,nil,nil,nil,0,nil,nil,nil,nil,nil,nil} -- Quest giver: Farmer Saldean
 epochQuestData[28495] = {"Commission for Protector Gariel",{{490}},nil,nil,5,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,40,nil,nil,nil,nil,nil,nil,0,nil,nil,nil,nil,nil,nil} -- Quest giver: Protector Gariel
 
---[[  
+--[[
 EPOCH QUEST DATABASE STRUCTURE ANALYSIS
 
 Total Epoch Quests: 600+ custom quests for Project Epoch server
@@ -206,7 +206,7 @@ QUEST DATA STRUCTURE (30 fields):
 10. objectives (table: {creatureObjective, objectObjective, itemObjective, reputationObjective, killCreditObjective, spellObjective})
 11. sourceItemId (int)
 12. preQuestGroup (table)
-13. preQuestSingle (table) 
+13. preQuestSingle (table)
 14. childQuests (table)
 15. inGroupWith (table)
 16. exclusiveTo (table)
@@ -227,7 +227,7 @@ QUEST DATA STRUCTURE (30 fields):
 
 STRUCTURAL VALIDATION:
 ✓ All troll quests (28750-28767) have proper 30-field structure
-✓ Quest 26768 objectives correctly formatted: {nil, {{objectIds}}} 
+✓ Quest 26768 objectives correctly formatted: {nil, {{objectIds}}}
 ✓ Mixed objective quests properly nested: {{{creatureIds}}, nil, {{itemIds}}}
 ✓ startedBy/finishedBy fields consistently use {{npcId}} format
 ✓ Placeholder quests maintain structural integrity
@@ -576,6 +576,7 @@ epochQuestData[28903] = {"Encrypted Memorandum",{{46836}},{{46882}},nil,1,nil,ni
 -- Issue #189: The Perenolde Legacy - Alterac Mountains quest
 epochQuestData[26511] = {"The Perenolde Legacy",{{2317}},{{6768}},nil,38,nil,nil,{"Report the news of Aliden Perenolde's death and Elysa's request to search for General Hath to Lord Ravenholdt."},nil,nil,nil,nil,nil,nil,nil,nil,36,nil,nil,nil,nil,nil,8,0,nil,nil,nil,nil,nil,nil} -- Alterac Mountains: Elysa to Lord Jorach Ravenholdt
 epochQuestData[28648] = {"[Epoch] Quest 28648",nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,0,nil,nil,nil,nil,nil,nil}
+epochQuestData[26716] = {"The Handmaiden's Fall",{{2112}},{{2112}},nil,28,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,85,nil,nil,nil,nil,nil,nil,0,nil,nil,nil,nil,nil,nil}
 
 -- Stage the Epoch questData for later merge during compilation
 QuestieDB._epochQuestData = epochQuestData
