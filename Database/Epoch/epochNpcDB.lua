@@ -836,7 +836,7 @@ local epochNpcData = {
 [45670] = {"Girda Thunderbrew",nil,nil,17,17,0,{[1537]={{55.5,47.8}}},nil,1537,nil,{26663},11,"A",nil,0},
 [45673] = {"Nonere Duskdigger",nil,nil,17,17,0,{[1537]={{48.6,44.5}}},nil,1537,nil,{26664},11,"A",nil,0},
 
--- Issue #32: NPCs for gnome starting area  
+-- Issue #32: NPCs for gnome starting area
 [46836] = {"Tinker Captain Whistlescrew",nil,nil,5,5,0,{[1]={{24.7,59.1}}},nil,1,{27034,27035,27036,28901,28902,28903},{27034,27035,28901,28902},11,"A",nil,0}, -- Updated coordinates and added Issue #213 quests
 [47084] = {"Felix Whindlebolt",nil,nil,3,3,0,{[1]={{52.8,39.2}}},nil,1,{28726},nil,11,"A",nil,0},
 [47085] = {"Caris Sunlancer",nil,nil,4,4,0,{[1]={{33.4,72.1}}},nil,1,{28727},nil,11,"A",nil,0},
@@ -1009,7 +1009,7 @@ epochNpcData[45798] = {"Lorkiz Quietbit",nil,nil,8,8,0,{[12]={{42.1,67.2}}},nil,
 -- Issue #105: Feralas NPCs
 epochNpcData[4048] = {"Falfindel Waywarder",nil,nil,28,28,0,{[405]={{89.6,46.4}}},nil,405,{27488,27500,27501},{27488,27500,27501},1,"A",nil,0} -- Feralas
 
--- Issue #106: Darkshore NPCs  
+-- Issue #106: Darkshore NPCs
 epochNpcData[3616] = {"Onu",nil,nil,14,14,0,{[148]={{43.5,76.3}}},nil,148,nil,{27205},1,"A",nil,0} -- Darkshore
 
 -- Issue #107: Hillsbrad/Desolace NPCs
@@ -1068,7 +1068,7 @@ epochNpcData[7867] = {"Thorkaf Dragoneye",nil,nil,60,60,0,{[3]={{62.6,57.5}}},ni
 
 -- Issues #167, #169: Various NPCs
 epochNpcData[2276] = {"Magistrate Henry Maleb",nil,nil,36,36,0,{[267]={{48.1,59.2}}},nil,267,{26505,26516},nil,1,"A",nil,0} -- Hillsbrad Foothills
-epochNpcData[2378] = {"Kundric Zanden",nil,nil,40,40,0,{[267]={{48.7,59.1}}},nil,267,{26538},{26505},1,"A",nil,0} -- Hillsbrad Foothills  
+epochNpcData[2378] = {"Kundric Zanden",nil,nil,40,40,0,{[267]={{48.7,59.1}}},nil,267,{26538},{26505},1,"A",nil,0} -- Hillsbrad Foothills
 epochNpcData[2278] = {"Melisara",nil,nil,40,40,0,{[267]={{62.5,20.5}}},nil,267,nil,{26537},8,"H",nil,0} -- Hillsbrad Foothills
 
 -- Issues #163, #164, #166: NPCs for new quests
@@ -1090,4 +1090,5 @@ epochNpcData[7882] = {"Security Chief Bilgewhizzle",nil,nil,41,41,0,{[440]={{67.
 epochNpcData[46237] = {"Marai Ravenwater",nil,nil,42,42,0,{[440]={{65.5,24.1}}},nil,440,{27462},{27462},1,"A",nil,0} -- Tanaris: Waste Removal quest
 
 -- Stage the Epoch npcData for later merge during compilation
+epochNpcData[2112] = {"Farrin Daris",nil,nil,28,28,0,{[85]={{73.6,43.6}}},nil,85,{26716},nil,nil,nil,nil,0}
 QuestieDB._epochNpcData = epochNpcData
